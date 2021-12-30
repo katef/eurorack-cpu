@@ -1,11 +1,10 @@
-A CPU implemented in an analog modular synthesizer
+## A CPU implemented in an analog modular synthesizer
 
 This runs in the [VCV Rack](https://vcvrack.com/) eurorack simulator.
 
-![](img/banner.gif)
-
 ![](img/cpu-layout-annotated.png)
 [Here's the unannotated screenshot](img/cpu.png)
+and [here's a video of the whole thing running](img/cpu-running.mp4?raw=true)
 
 Instruction formats:
 
@@ -22,4 +21,31 @@ rr = register number
 n = alu operand
 i = immediate
 ```
+
+## Fetch and Decode
+![](img/instruction-decoder.png)
+[and a video of it running](img/instruction-decoding-running.mp4?raw=true)
+
+## Data bus
+![](img/bus-load-store.png)
+
+## 3-Stage Clock
+![](img/clock-stages.gif)
+
+## A single register
+![](img/single-register.png)
+
+## Register bank
+![](img/register-bank.gif)
+![and a video of it running](img/register-bank-running.mp4?raw=true)
+
+## Immediate value
+![](img/output-immediate.png)
+
+## ALU
+![](img/alu.png)
+
+## Ripple carry adder
+![](img/adder.png)
+![](img/adder-sine.png)
 
