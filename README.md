@@ -2,6 +2,11 @@
 
 This runs in the [VCV Rack](https://vcvrack.com/) eurorack simulator.
 
+I wrote a thread explaining the CPU [on twitter](https://twitter.com/thingskatedid/status/1476679065411022849)  
+and a thread [explaining just the ripple adder](https://twitter.com/thingskatedid/status/1475128017374437380).
+
+TODO list: https://github.com/katef/eurorack-cpu/issues/1
+
 ![](img/cpu-layout-annotated.png)
 [Here's the unannotated screenshot](img/cpu.png)
 and [here's a video of the whole thing running](img/cpu-running.mp4?raw=true)
